@@ -3,7 +3,7 @@ const mysql = require('mysql');
 require('dotenv').config();
 
 const connection = require('../middleware/db_connect');
-app1.disable("x-powered-by");
+const app = require('../app'); // Replace with the path to your application file
 
 describe('Unit Test /', () => {
   it('should respond with index.html', async () => {
