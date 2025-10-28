@@ -1,6 +1,5 @@
-FROM node:18.20.8-slim
-WORKDIR /data
+FROM node:18.16.0-slim
+WORKDIR /app
 ADD . .
 RUN npm install
-CMD npm start
-
+CMD ["npm", "start"]
