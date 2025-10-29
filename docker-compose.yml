@@ -14,7 +14,7 @@ services:
       - DB_PASSWORD=password
       - APP_PORT=3000
     volumes:
-      - ./apps:/app 
+      - ./apps:/app
       - app-data:/app/public/images
 
   db:
