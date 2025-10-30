@@ -2,6 +2,7 @@ services:
 
   backend:
     build: ./apps
+    image: permana-ang/pengulangan-devops:version1
     restart: always
     links:
       - db
